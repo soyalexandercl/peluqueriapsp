@@ -75,7 +75,7 @@ public class Peluquera extends Thread {
                 // Cada 10 atenciones, la peluquera descansa
                 if (atenciones > 0 && atenciones % 10 == 0) {
                     evento.add(nombre + " completo 10 clientes, descansara un momento");
-                    // Simulación de tiempo de atención
+                    // Simulación de tiempo de descanso
                     // Thread.sleep((random.nextInt(10) + 1) * 500);
                 }
             }
@@ -83,3 +83,4 @@ public class Peluquera extends Thread {
         } catch (Exception e) {}
     }
 }
+
